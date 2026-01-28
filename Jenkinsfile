@@ -10,6 +10,7 @@ pipeline {
                     echo "Selected branch: ${env.BRANCH_NAME}"
                     echo "Selected branch: ${env.BRANCH_NAME}"
                     echo "Selected branch: ${env.BRANCH_NAME}"
+                    
                     }
                 }
             }
