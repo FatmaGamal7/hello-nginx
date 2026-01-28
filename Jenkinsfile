@@ -5,11 +5,9 @@ pipeline {
         stage('branch name') {
             steps {
                 script {
-                    echo "orint pranch name 4 times"
+                    echo "print pranch name 4 times"
                     echo "Selected branch: ${env.BRANCH_NAME}"
-                    echo "Selected branch: ${env.BRANCH_NAME}"
-                    echo "Selected branch: ${env.BRANCH_NAME}"
-                    echo "Selected branch: ${env.BRANCH_NAME}"
+                    echo "build from webhook"
                     }
                 }
             }
